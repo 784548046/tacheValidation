@@ -1,0 +1,365 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+/*********************************** barre de nav debut ***************************/
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #252B42;
+    color: white;
+}
+.liste ul{
+    display: flex;
+}
+.liste li{
+   list-style-type: none;
+   padding: 20px;
+}
+.font ul{
+    display: flex;
+}
+.font li{
+   list-style-type: none;
+   padding: 15px;
+}
+.ecri p{
+    font-size: 30px;
+}
+#bac{
+    background-color: #23A6F0;
+    border-radius: 10px;
+}
+
+/*********************************** barre de nav fin ***************************/
+
+/*********************************** section1 debut ***************************/
+
+.section1{
+    background-color: #252B42;
+    height: 1000px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.section1 h1{
+    font-size: 60px;
+    text-align: center;
+}
+.section1 h5{
+    color: #23A6F0;
+}
+.section1 h2{
+    font-size: 18px;
+    text-align: center;
+    color: rgb(217, 211, 211);
+}
+.bouton{
+    display: flex;
+    gap: 20px;
+}
+.bouton .grou{
+    background-color: #23A6F0;
+    padding: 15px;
+    border-radius: 5px;
+}
+.bouton .contour{
+    border: 2px solid #23A6F0;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+/*********************************** section1 fin ***************************/
+
+/*********************************** section2 debut ***************************/
+
+.section2{
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:200px;
+}
+.gauche .rouge{
+    background-color: red;
+    width: 100px;
+    height: 10px;
+    border-radius: 5px;
+}
+.section2 h2{
+    font-size: 40px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color: rgb(42, 40, 40);
+}
+.section2 h4{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color: rgb(104, 98, 98);
+}
+.cou p{
+    color: #23A6F0;
+}
+
+/*********************************** section2 fin ***************************/
+
+/*********************************** section3 debut ***************************/
+.section3 h5{
+    color: #23A6F0;
+}
+.section3 h1{
+    font-size: 50px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.section3 h4{
+    margin-top: 20px;
+    margin-bottom: 60px;
+    color: rgb(104, 98, 98);
+}
+.haut{
+    margin-left: 40px;
+}
+.bas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+/*********************************** section3 fin ***************************/
+
+/*********************************** section4 fin ***************************/
+
+.section4 h5{
+    color: #23A6F0;
+}
+.section4 h1{
+    font-size: 50px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.section4 h4{
+    margin-top: 20px;
+    margin-bottom: 60px;
+    color: rgb(104, 98, 98);
+}
+.frite{
+    margin-left: 40px;
+}
+.pomme{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+/*********************************** section4 fin ***************************/
+
+
+/*********************************** section5 debut ***************************/
+
+.section5 h5{
+    color: #23A6F0;
+}
+.section5 h1{
+    font-size: 50px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.section5 h4{
+    margin-top: 20px;
+    margin-bottom: 60px;
+    color: rgb(104, 98, 98);
+    text-align: center;
+}
+.section5{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+}
+.top{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.bot{
+    display: flex;
+}
+.bot input{
+    width: 300px;
+    height: 30px;
+    background-color: #d3e7f2;
+    border: 1px solid #878b8d;
+    border-radius: 2px;
+}
+.bot button{
+    height: 30px;
+    width: 90px;
+    border-radius: 2px;
+    border: 1px solid #878b8d;
+    background-color: #23A6F0;
+    color: white;
+}
+
+/*********************************** section5 fin ***************************/
+
+.footer{
+    background-color: #252B42;
+    height: 400px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+.fo p{
+    padding: 10px;
+}
+.fo1 p{
+    padding: 10px;
+}
+ .ou .fo1{
+    margin-top: 105px;
+}
+.ba{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+.ou{
+    display: flex;
+}
+.va{
+    display: flex;
+}
+.fo{
+    padding: 100px;
+}
+
+
+
+@media  only screen and (max-width: 600px){
+    /* barre nav */
+    nav{
+        display: flex;
+        flex-direction: column;
+    }
+    .liste li{
+        padding: 15px;
+     }
+     .font li{
+        padding: 15px;
+     }
+     /* section1 */
+     .section1{
+        height: 1500px;
+     }
+     .section1 h1{
+        font-size: 30px;
+    }
+    .section1 h2{
+        font-size: 10px;
+    }
+    .carre{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    /* section2 */
+    .section2{
+        display: flex;
+        flex-direction: column;
+        height: 1100px;
+        gap: 100px;
+    }
+    .section2 h2{
+        font-size: 25px;
+    }
+    .section2 h4{
+        font-size: 10px;
+    }
+    .droite{
+        width: 100%;
+    }
+    .droite img{
+        width: 100%;
+    }
+    /* section3 */
+    .bas{
+        display: flex;
+        flex-direction: column;
+    }
+    .section3 h1{
+        font-size: 30px;
+    }
+    /* section4 */
+    .pomme{
+        display: flex;
+        flex-direction: column;
+    }
+    .pomme{
+        width: 100%;
+    }
+    .pomme img{
+        width: 100%;
+    }
+    .section4 h1{
+        font-size: 30px;
+    }
+    /* section5 */
+    .section5 h1{
+        font-size: 30px;
+    }
+    /* footer */
+    .footer{
+        display: flex;
+        flex-direction: column;
+        height: 300px;
+    }
+    .ou .fo1{
+        margin-top: 10px;
+    }
+    .ba p{
+        font-size: 10px;
+    }
+    .fo p{
+        padding: 3px;
+    }
+    .fo1 p{
+        padding: 3px;
+    }
+    .fo{
+        padding: 10px;
+    }
+    .fo p{
+        font-size: 10px;
+    }
+    .fo h2{
+        font-size: 20px;
+    }
+    .fo1 p{
+        font-size: 10px;
+    }
+    .fo1 h2{
+        font-size: 20px;
+    }
+    
+
+
+
+
+
+
+
+}
